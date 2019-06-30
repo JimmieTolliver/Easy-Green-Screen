@@ -1,0 +1,51 @@
+body{
+  color:limegreen;
+  font-family: monospace;
+  font-stretch: 50%;
+  background-image: url('3.png');
+  background-repeat: repeat-xy;
+  background-color: #21262c;
+  background-blend-mode: soft-light;
+  opacity: .9;
+}
+
+h1{
+  font-size:26px;
+  opacity:.8;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+canvas{
+  width:30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 1px lightgray;
+}
+
+#canv1{
+  float:left;
+}
+
+#canv2{
+  float:middle;
+}
+
+div{
+  display: flow-root;
+  opacity: .9;
+}
+
+#labelSpace{
+  line-height: 2;
+}
+.buttons{
+  margin-right: 15%;
+  float:right;
+}
+
+#GreenImg{
+  margin-top: 15px;
+  margin-right: 50px;
+}

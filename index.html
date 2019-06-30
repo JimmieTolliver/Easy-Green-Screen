@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jimmie's Simple Green Screen</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <script src="./SimpleImage.js"></script>
+
+  <h1>Jimmie T's Easy Green Screen</h1>
+
+  <canvas id="canv1"></canvas>
+  <canvas id="canv2"></canvas>
+
+  <div class="buttons">
+
+    <p id="labelSpace">Foreground Image:<br>
+      <input type="file" multiple=false accept="image/*" id="FGimg" onchange="uploadFG()">
+    </p>
+    <p id="labelSpace">Background Image:<br>
+      <input type="file" multiple=false accept="image/*" id="BGimg" onchange="uploadBG()">
+    </p>
+
+    <p>
+      Green Factor<br>
+      <input type="range" min "0" max="100" value="50" id="greenBias" oninput="doAdjust()">
+    </p>
+
+    <p>
+      <input type="button" value="Convert" id="GreenImg" onclick="ChromaKey()">
+      <input type="button" value="Clear" id="clearCanvas" onclick="clearCanvas()">
+    </p>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
