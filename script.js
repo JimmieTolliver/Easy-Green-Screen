@@ -36,7 +36,7 @@ function ChromaKey(){
 }
 
  function clearCanvas(){
-    location.reload(foreGet=true);
+    location.reload(forceGet=true);
   }
 
   function doAdjust(){
