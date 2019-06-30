@@ -6,7 +6,6 @@ var greenBias = 5;
 
 function uploadFG(){
   canv1 = document.getElementById('canv1');
-  //canv2 = document.getElementById('canv2');
   var fileinput = document.getElementById('FGimg');
   FGimage = new SimpleImage(fileinput);
   FGimage.drawTo(canv1);
